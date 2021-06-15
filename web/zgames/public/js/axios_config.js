@@ -1,3 +1,3 @@
-//Axios puede hacer peticiones a laravel
+//Axios permite hacer peticiones a laravel
 window.axios.defaults.headers.common["X-CSRF-TOKEN"] 
     = document.querySelector("meta[name='csrf-token']").Content;

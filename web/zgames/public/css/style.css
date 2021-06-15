@@ -1,4 +1,11 @@
 .logo{
+    /*Aca es .logo ya que la clase de la imagen es logo (class="logo")   fila */
+
+    /*
+    Siempre que quieras que una imagen sea responsiva, defines solo una dimension de las dos o
+    defines el ancho, o defines el alto.
+    Si defines el ancho, el alto es automatico, si defines el alto el ancho debe ser automatico.
+    */
     height:50px;
     width:auto;
 }
